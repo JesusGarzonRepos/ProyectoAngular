@@ -1,0 +1,12 @@
+<div class="titulo"><h1>Productos disponibles</h1></div>
+<div class="contenedor-productos">
+  @for(producto of listaProductos; track $index){
+    <div class="card">
+        <img src="{{producto.image}}" alt="{{producto.title}}" height="300">
+        <h2 class="product-name">{{producto.title}}</h2>
+        <p class="product-price">Precio: ${{producto.price}}</p>
+        <button [routerLink]="['/info', producto.id]">Comprar</button>
+    </div>
+}
+</div>
+

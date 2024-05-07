@@ -1,0 +1,12 @@
+.pie-pagina {
+    background-color: #dfdfdf;
+    padding: 10px;
+    text-align: center;
+  }
+  .contenido p {
+    font-weight: bold;
+  }
+
+  .contenido a {
+    text-decoration: none;
+  }

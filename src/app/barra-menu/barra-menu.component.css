@@ -1,0 +1,12 @@
+.barra-menu {
+    background-color: #dfdfdf;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 10px;
+  }
